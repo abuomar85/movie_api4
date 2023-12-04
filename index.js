@@ -19,7 +19,7 @@ const express = require('express'),
       app.use(morgan('common'));
       app.use(bodyParser.json());
 
-      mongoose.connect('"mongodb+srv://cluster0.usnlqqf.mongodb.net/" --apiVersion 1 --username abuomaralyabrode85"',
+      mongoose.connect('mongodb+srv://abuomaralyabrode85:Abu.0796422917@cluster0.usnlqqf.mongodb.net/?retryWrites=true&w=majority',
       {useNewUrlParser: true, useUnifiedTopology: true}
       );
 
